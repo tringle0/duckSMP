@@ -1,0 +1,15 @@
+name: duckSMP
+version: '1.0-SNAPSHOT'
+main: tringle.tring.duckSMP.DuckSMP
+api-version: '1.21'
+
+commands:
+  charms:
+    description: Opens charms inventory
+    usage: /charms
+    permission: duckSMP.use
+
+permissions:
+  duckSMP.use:
+    description: Allows use of /charms
+    default: true
